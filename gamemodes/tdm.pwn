@@ -1,8 +1,17 @@
-// This is a comment
-// uncomment the line below if you want to write a filterscript
-//#define FILTERSCRIPT
+/*
+Red County TDM
+Credits : MinimalisticV
+
+
+
+
+
+*/
 
 #include <a_samp>
+#include <YSI\y_ini>
+
+native WP_Hash(buffer[],len,const str[]); // Whirlpool native, add it at the top of your script under includes
 
 main()
 {
